@@ -92,6 +92,10 @@ A one-stop site to aggregate the information needed by charities focused on clea
 ### QD Backup
 This is a project I started years ago to replace the clunky interface and tools I was using to backup my essential files both to a network drive and to a cloud provider. I suspect [synchthing](https://syncthing.net/) does everything I need and would want to investigate that assumption before building my own tool.
 
+### Sunspot
+
+A serverless function to allow processes that hold the correct secrets to request time-limited firewall modifications in real-time.
+
 ### Time Slices
 
 A C# library for handling slices of time - different from TimeSpan in that it handle specific time spans - ie, 
