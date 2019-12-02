@@ -8,7 +8,7 @@ Putting my money where my mouth is, I'm keeping my project ideas in public view 
 
 ## Project Ideas
 
-### Authentication as a Microservice Cluster
+### Authentication as a Microservice Cluster (Pilgrim)
 Any non-trivial application I build based on the model of a static site backed by serverless functions will require some authentication solution and preferrably one that follows the same architecture. I'd also prefer to not requre an LDAP backing store because that's a lot of admin for what may be a small collection of users.
 
 If I pick another project to start with, I'll probably create the minimum system necessary. If I choose to start with this project, I'll want to build something that can be dropped into multiple projects and configured.
