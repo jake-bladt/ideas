@@ -92,6 +92,9 @@ A one-stop site to aggregate the information needed by charities focused on clea
 ### QD Backup
 This is a project I started years ago to replace the clunky interface and tools I was using to backup my essential files both to a network drive and to a cloud provider. I suspect [synchthing](https://syncthing.net/) does everything I need and would want to investigate that assumption before building my own tool.
 
+### SimpleCloud
+A UI to make setting up and monitoring basic cloud resources easier.
+
 ### Sunspot
 
 A serverless function to allow processes that hold the correct secrets to request time-limited firewall modifications in real-time.
