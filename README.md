@@ -20,6 +20,8 @@ This was the front-runner for a while: a site where authors can share unfinished
 ### Build, Seed, and Patch
 BSP is a .net library that allows the repeatable creation of databases by writing idempotent scripts to setup and roll back entities and data. I suspect there's probably a tool out there that does this already, in which case I would happily use what's already available.
 
+One possible use for this would be to be able to create and destroy a database as part of automated testing.
+
 ### Chatterbox
 Chatterbox is a project I started to play with when I was doing a lot of Slack automation. This is a purpose-built server that accepts web hooks and applies transformations to those messages before forwarding them to messaging platforms (Slack initially, but e-mail and queue servers should be pretty straightforward add-ons.)
 
