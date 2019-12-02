@@ -33,6 +33,14 @@ The premise of this is to create a platform for presenting fictional settings as
 
 Contain Me is an API that allows teams to manage and launch a subset of containers keyed by user.
 
+### DBScaffold
+
+A testing component to allow individual tests to build and seed parts of a database before they run (and tear them down after they're done.)
+
+To be done right, may require a SQL-like DSL...
+
+Also, I wonder what the practicality of using EFCore for continuous testing is. Could you do DB-first EF, then use the artifacts created to regenerate the database under test?
+
 ### The DevOps game
 
 Possibly a Zork-like command-line game, possibly a web game - a game in which the player's job is to take a dysfunctional IT department to "ten deployments a day."
