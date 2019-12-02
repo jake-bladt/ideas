@@ -6,34 +6,16 @@ Talking to people in the start-up community, I frequently hear people worry abou
 
 Putting my money where my mouth is, I'm keeping my project ideas in public view - not just to prove a point, but in the hope that someone will steal the idea, create the product in question, and offer it for my use so that I don't have to build it myself.
 
-## Projects
-
-### Personal Website
-
-It's been a few years since I put up a portfolio website for myself. It would be a static website, probably generated in hugo, and be unlikely to take more than 100 hours for the initial creation and deployment. As a downside, I don't have much to put in a profile website. The work that I've done for hire is just much more of a selling point than any project I have in github. If I decide to take this as a primary project, I really need to timebox it. More likely, I'll try to finish at least one "cool" project and then come back to it.
-
-Also, if I get back into dev blogging, I'm more likely to give dev.to a try than to go my own way.
-
-### DraftNinja
-
-DraftNinja is a perennial possibility and has ranged in scope from a desktop tool that can update relative values of draft choices in fantasy baseball in real-time as players are taken off the board to a full ML system that can look at years of box scores and come up with better predictive models than those that are commercially available. They all flounder on the fact that none of the solutions have a value proposition worth the work I would have to put into them. I just don't care about fantasy baseball as much a I used to. I don't know that I want to put in the effort to create a system I'd be comfortable putting serious money into. And I don't feel like I need a showcase piece so badly than I should spend months building one that doesn't bring me joy. Plus, I'm pretty sure the state of ML is a big enough moving target that whatever I learn building it will be immediately obsolete.
-
-### Beta-My-Book
-
-This was the front-runner for a while: a site where authors can share unfinished material with their beta readers, get feedback, and make edits in real-time. I still really like the idea, but the primary motivation of building the site was to use it myself and, as it turns out, there's already a site that offers these services. Equipped as I am with training in DevOps and Continuous Deployment, the idea of building a competitor to an existing site on my own is no longer a deal-breaker, but the motivation to build it is much less if I can get the service from an existing site.
-
-## Intriguing Aspects
-
-Whatever project I dig into, I expect continuous build and integrated testing to be involved from the get-go. If one or more of the outputs is a website or API, I plan to use continuous deployment as well. I'll probably manage the build pipeline using Azure DevOps because it's something I'm both familiar with and need to learn more of to do my day job well.
-
-As I mentioned above, if it's appropriate, I expect to use a microservice architecture and serverless functions with a static front end written in Angular. This is enough unfamiliar ground that I'd prefer to keep the language choices as familiar as possible - at least initially.
-
-## Possible Projects
+## Project Ideas
 
 ### Authentication as a Microservice Cluster
 Any non-trivial application I build based on the model of a static site backed by serverless functions will require some authentication solution and preferrably one that follows the same architecture. I'd also prefer to not requre an LDAP backing store because that's a lot of admin for what may be a small collection of users.
 
 If I pick another project to start with, I'll probably create the minimum system necessary. If I choose to start with this project, I'll want to build something that can be dropped into multiple projects and configured.
+
+### Beta-My-Book
+
+This was the front-runner for a while: a site where authors can share unfinished material with their beta readers, get feedback, and make edits in real-time. I still really like the idea, but the primary motivation of building the site was to use it myself and, as it turns out, there's already a site that offers these services. Equipped as I am with training in DevOps and Continuous Deployment, the idea of building a competitor to an existing site on my own is no longer a deal-breaker, but the motivation to build it is much less if I can get the service from an existing site.
 
 ### Build, Seed, and Patch
 BSP is a .net library that allows the repeatable creation of databases by writing idempotent scripts to setup and roll back entities and data. I suspect there's probably a tool out there that does this already, in which case I would happily use what's already available.
@@ -56,6 +38,10 @@ Possibly a Zork-like command-line game, possibly a web game - a game in which th
 ### Docker Decompose
 
 A proof-of-concept application to take a docker-compose file, look for PLATFORM directives, and split the containers between Linux and Windows virtual machines, then connect them up using an overlay network.
+
+### DraftNinja
+
+DraftNinja is a perennial possibility and has ranged in scope from a desktop tool that can update relative values of draft choices in fantasy baseball in real-time as players are taken off the board to a full ML system that can look at years of box scores and come up with better predictive models than those that are commercially available. They all flounder on the fact that none of the solutions have a value proposition worth the work I would have to put into them. I just don't care about fantasy baseball as much a I used to. I don't know that I want to put in the effort to create a system I'd be comfortable putting serious money into. And I don't feel like I need a showcase piece so badly than I should spend months building one that doesn't bring me joy. Plus, I'm pretty sure the state of ML is a big enough moving target that whatever I learn building it will be immediately obsolete.
 
 ### The Endorphin Engine
 
@@ -88,6 +74,13 @@ A site focused on helping developers coordinate and manage their career and job 
 ### The Open Water Project
 
 A one-stop site to aggregate the information needed by charities focused on clean and potable water to choose where to start programs and to measure their efficacy. 
+
+
+### Personal Website
+
+It's been a few years since I put up a portfolio website for myself. It would be a static website, probably generated in hugo, and be unlikely to take more than 100 hours for the initial creation and deployment. As a downside, I don't have much to put in a profile website. The work that I've done for hire is just much more of a selling point than any project I have in github. If I decide to take this as a primary project, I really need to timebox it. More likely, I'll try to finish at least one "cool" project and then come back to it.
+
+Also, if I get back into dev blogging, I'm more likely to give dev.to a try than to go my own way.
 
 ### QD Backup
 This is a project I started years ago to replace the clunky interface and tools I was using to backup my essential files both to a network drive and to a cloud provider. I suspect [synchthing](https://syncthing.net/) does everything I need and would want to investigate that assumption before building my own tool.
