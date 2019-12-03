@@ -53,6 +53,12 @@ A proof-of-concept application to take a docker-compose file, look for PLATFORM 
 
 DraftNinja is a perennial possibility and has ranged in scope from a desktop tool that can update relative values of draft choices in fantasy baseball in real-time as players are taken off the board to a full ML system that can look at years of box scores and come up with better predictive models than those that are commercially available. They all flounder on the fact that none of the solutions have a value proposition worth the work I would have to put into them. I just don't care about fantasy baseball as much a I used to. I don't know that I want to put in the effort to create a system I'd be comfortable putting serious money into. And I don't feel like I need a showcase piece so badly than I should spend months building one that doesn't bring me joy. Plus, I'm pretty sure the state of ML is a big enough moving target that whatever I learn building it will be immediately obsolete.
 
+### Domain mail as a service (CloudMail?)
+
+While sending e-mail has been cost-optimized as a service, managing domain e-mail accounts continues to be prohibitively expensive. The [best deal](https://www.rackspace.com/email-hosting/webmail/pricing) is still US$3/user/month, making many possible configurations prohibitively expensive. Shared hosting plans like those provided by HostGator manage domain e-mail free with LAMP hosting, suggesting that the price of providing this service is negligible.
+
+CloudMail could possibly even be an orchestration service that manages cloud servers and resources owned by the clients. They provide cloud account keys and parameters. CM's servers spin up, monitor, amd scale mail servers, block storage, and other cloud resources on those accounts for an orchestration fee. If you need a single server managing a single pool of mail, the orchestration could be free.
+
 ### The Endorphin Engine
 
 An actor decision engine based around an "endorphin profile" that allows for both rational and irrational actions, possibly using Akka.net.
