@@ -67,6 +67,15 @@ An actor decision engine based around an "endorphin profile" that allows for bot
 
 A theme to generate websites for fantasy campaigns using the Hugo static website generator - eventually to be combined with a web front end meant to create the files used to generate the site.
 
+### Foggy Chess
+
+A chess game with "fog of war." Players can't see the board automatically. They can only see spaces that meet one of the following conditions:
+
+* within one space of a king, pawn, bishop, or rook in a direction that piece can capture.
+* capturable by a knight or queen.
+
+This is based on a deliberately poor understanding of [Franklin K. Young's Logistic Grand Battle](https://www.futilitycloset.com/2019/11/16/the-fog-of-war/).
+
 ### Home Game Poker
 
 A simple server and UI for running poker games over the Internet, straightforward enough for non=-technical users.
