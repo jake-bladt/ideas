@@ -90,7 +90,7 @@ An extension to Entity Framework that generates RESTful endpoints and an EF-like
 
 ### Magnate News Aggregator
 
-A platform that scrapes the web, looking for news sources on a given topic and tracking their updates to create aggregator sites and newsletters.
+A platform that scrapes the web, looking for news sources on a given topic and tracking their updates to create aggregator sites and newsletters. May be able to outsource to webhose.io.
 
 ### The Nimrod Project
 
