@@ -110,6 +110,8 @@ Also, if I get back into dev blogging, I'm more likely to give dev.to a try than
 ### QD Backup
 This is a project I started years ago to replace the clunky interface and tools I was using to backup my essential files both to a network drive and to a cloud provider. I suspect [synchthing](https://syncthing.net/) does everything I need and would want to investigate that assumption before building my own tool.
 
+**Update** SyncThing may be good at synchronizing folders across machines, but it doesn't sync with cloud buckets. So, it's not an ideal solution. One may be out there yet.
+
 ### SimpleCloud
 A UI to make setting up and monitoring basic cloud resources easier.
 
