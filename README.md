@@ -8,6 +8,10 @@ Putting my money where my mouth is, I'm keeping my project ideas in public view 
 
 ## Project Ideas
 
+### 25
+
+A puzzle game where the letters A to Z are each set to a unique whole number between 0 and 25, inclusive - possibly a sudoku-like puzzle, possibly a two-player game where each player gives the other "hints" as to what their numbers are.
+
 ### Authentication as a Microservice Cluster (Pilgrim)
 Any non-trivial application I build based on the model of a static site backed by serverless functions will require some authentication solution and preferrably one that follows the same architecture. I'd also prefer to not requre an LDAP backing store because that's a lot of admin for what may be a small collection of users.
 
