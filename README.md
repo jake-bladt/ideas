@@ -98,7 +98,7 @@ A platform that scrapes the web, looking for news sources on a given topic and t
 
 ### The Nimrod Project
 
-A site focused on helping developers coordinate and manage their career and job seeking.
+A developer-centric site allowing for continuous career management - based on the sense that current "job seeking" sites are based entirely on what's best for the hiring manager and assume a stop-start cycle that is jarring, confusing, discontinuous, and inefficient.
 
 ### The Open Water Project
 
