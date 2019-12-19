@@ -140,6 +140,12 @@ I've been kicking this one around for so long, I don't remember what project I w
 
 A lifetime learning portal that allows users to store links and notes to facilitate their self-teaching and to provide limited public views as a type of CV.
 
+### Universal Distributable Transactions
+
+UDT would be a protocol/service for managing distributed and non-distributed transactions in a non-falsifiable way such that all involved parties know not to commit their transaction components to "truth" until the transaction is complete.
+
+This may wind up being a paper instead of software.
+
 ### WorldMap project
 
 A fantasy worldbuilding tool that allows game designers/runners to start at the top, drawing continents, and oceans, and zoom all the way down to individual characters and items - probably meant to work with the Fantasy Campaign hugo theme.
